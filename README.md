@@ -2,7 +2,7 @@
 
 This is the meeting spot for people that what to coordinate on localisation tasks in Rust.
 
-This is currently mostly the video translation done on [Amara](https://amara.org).
+Please check out our [wiki](https://github.com/rust-community/localisation/wiki) to know more.
 
 ## Invite
 
