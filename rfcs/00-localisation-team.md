@@ -29,7 +29,7 @@ unicode support, etc.
 
 Due to the nature and breadth of its goals, the localisation team work
 needs certain hierarchies to be in place. Those hierarchies are
-defined as _Special Interest Groups_ and _Language Sub-teams_. 
+defined as _Special Interest Groups_ and _Language Sub-teams_.
 
 ### Team Goals
 
@@ -37,6 +37,8 @@ defined as _Special Interest Groups_ and _Language Sub-teams_.
   - `std` documentation and the Rust Book
   - Videos subtitling and translation
   - Blog posts and Websites' copy
+- Provide support for communication in multiple languages across the
+  official discussion forums (Discourse, IRC)
 - Implement and maintain internationalization and localization in the
   core tools 
   - `rustc`: error and warning messages, the command line help
@@ -61,18 +63,23 @@ to execute them.
 
 The proposed _SIGs_ are:
 
-- Documentation
-- Videos
-- Web
-- Core
-- Libraries
+- Documentation: localisation of _the book_ and `std` documentation
+- Videos: subtitling and translation of subtitles of videos the [Rust
+  Videos](https://youtube.com/rustvideos) channel
+- Moderation: moderation and support of language specific categories
+  in [URLO](https://users.rust-lang.org) and IRC.
+- Web: translation of official blog posts and websites
+- Core: support for l10n/i18n in the core tools and translation of
+  help, warnings and error messages.
+- Libraries: foster support for l10n/i18n in the crate
+  ecosystem. Infrastructure support for libraries i18n.
 
 ### Language Sub-teams
 
 The language sub-teams are comprised of people able to collaborate
-towards the translation from English to a second language. The
-sub-teams can have members of different _SIGs_ and use the tools they
-provide to execute the translation of strings.
+towards the translation of content from English to a second
+language. The sub-teams can have members of different _SIGs_ and use
+the tools they provide to execute the translation of strings.
 
 The language sub-teams collaborate around one or several online
 platforms (TBD) to track progress and updates to translations.
