@@ -2,7 +2,7 @@
 
 # Pre-RFC: Rust Localisation Team
 
-- Feature Name: Rust Localiation Team
+- Feature Name: Rust Localisation Team
 - Start Date: 2018-01-28
 - RFC PR: 
 - Rust Issue: 
